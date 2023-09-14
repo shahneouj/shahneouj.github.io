@@ -1,12 +1,12 @@
 {
-  "name": "servercal",
+  "name": "server",
   "version": "1.0.0",
   "description": "calculator",
   "main": "server.js",
   "type": "module",
   "scripts": {
-    "build": "echo \"node-gyp configure build",
-    "start": "nodemon server.js"
+    "build": "npm install",
+    "start": "node server.js"
   },
   "author": "shahneouj",
   "license": "ISC",
